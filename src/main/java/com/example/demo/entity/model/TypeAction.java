@@ -7,8 +7,14 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "equipe")
-public class Equipe {
+@Table(name = "type_action")
+public class TypeAction {
+    @Column(name = "point")
+    private Integer point;
+
+    @Column(name = "designation")
+    private String designation;
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id", nullable = false)
