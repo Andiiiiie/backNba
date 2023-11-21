@@ -20,4 +20,6 @@ public class TypeAction {
     @Column(name = "id", nullable = false)
     private Integer id;
 
+
+
 }

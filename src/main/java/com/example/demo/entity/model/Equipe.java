@@ -9,6 +9,9 @@ import lombok.Setter;
 @Entity
 @Table(name = "equipe")
 public class Equipe {
+    @Column(name = "nom")
+    private String nom;
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id", nullable = false)
