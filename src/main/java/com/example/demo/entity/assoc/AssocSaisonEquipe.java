@@ -9,8 +9,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "assoc_saison_enquipe")
-public class AssocSaisonEnquipe {
+@Table(name = "assoc_saison_equipe")
+public class AssocSaisonEquipe {
     @ManyToOne
     @JoinColumn(name = "equipe_id")
     private Equipe equipe;

@@ -6,7 +6,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
-@RepositoryRestResource(collectionResourceRel = "",path = "")
+@RepositoryRestResource(collectionResourceRel = "equipe",path = "equipe")
 public interface EquipeRepository extends PagingAndSortingRepository<Equipe,Integer>, CrudRepository<Equipe,Integer>,JpaRepository<Equipe, Integer> {
 
 }

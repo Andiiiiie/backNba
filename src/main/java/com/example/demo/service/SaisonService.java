@@ -11,7 +11,7 @@ import java.util.List;
 @Getter
 @Service
 public class SaisonService {
-    SaisonRepository saisonRepository;
+    private  final SaisonRepository saisonRepository;
 
     public SaisonService(SaisonRepository saisonRepository) {
         this.saisonRepository = saisonRepository;
